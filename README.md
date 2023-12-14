@@ -32,6 +32,7 @@ fp: Main file pointer for employee records ("pro.text").
 tp: Temporary file pointer.
 File operations: fopen, fwrite, fread, fclose.
 
+Project Output Screenshot:
 
 ![Screenshot (159)](https://github.com/nikita11ch/EMPLOYEE-MANAGEMENT-SYSTEM/assets/115834443/7fa290fc-b0e3-458c-931f-ff3bf18d7b96)
 
