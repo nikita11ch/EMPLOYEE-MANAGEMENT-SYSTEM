@@ -1,10 +1,5 @@
 Project Title: Employee Management System
 
-Objective:
-Create a functional Employee Management System in C using file handling for basic CRUD operations (Create, Read, Update, Delete).
-
-Components:
-
 Project description:
 
 Header Files:
