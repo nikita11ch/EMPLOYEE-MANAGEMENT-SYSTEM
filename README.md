@@ -1,7 +1,16 @@
-Project Title: Employee Management System
+EMPLOYEE MANAGEMENT SYSTEM
 
-Project description:
+What is an Employee Management System?
+Employee Management System is a distributed application, developed to maintain the details of employees working in any organization.
+It maintains the information about the personal and official details of the employees.
 
+OBJECTIVE OF PROJECT:
+The objective of this project is to provide a comprehensive approach towards the management of employee information.
+
+FEATURES :
+Easily Add, Delete, Modify Records.
+
+PROJECT DESCRIPTION :
 Header Files:
 #include<stdio.h>
 #include<string.h>
@@ -32,7 +41,8 @@ fp: Main file pointer for employee records ("pro.text").
 tp: Temporary file pointer.
 File operations: fopen, fwrite, fread, fclose.
 
-Project Output Screenshot:
+PROJECT OUTPUT SCREENSHOT :
+
 
 ![Screenshot (159)](https://github.com/nikita11ch/EMPLOYEE-MANAGEMENT-SYSTEM/assets/115834443/7fa290fc-b0e3-458c-931f-ff3bf18d7b96)
 
