@@ -1,4 +1,4 @@
-EMPLOYEE MANAGEMENT SYSTEM
+PROJECT TITLE : EMPLOYEE MANAGEMENT SYSTEM
 
 What is an Employee Management System?
 Employee Management System is a distributed application, developed to maintain the details of employees working in any organization.
