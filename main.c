@@ -1,4 +1,4 @@
-//Employee record system using file handling
+//Employee management system using file handling
 #include<stdio.h>
 #include<string.h>
 void newemp();   //function declaration
@@ -31,7 +31,7 @@ int main()
 	niki();	
 	system("cls");
 	line();
-	printf("\n\t\t\t\t\t\tEMPLOYEE RECORD SYSTEM");
+	printf("\n\t\t\t\t\t\tWELCOME TO EMPLOYEE MANAGEMENT SYSTEM");
 	line();	
 	printf("\n\t\t\t\t\t\t(1) NEW EMPLOYEE");
 	printf("\n\t\t\t\t\t\t(2) DISPLAY RECORD");
@@ -93,15 +93,15 @@ void newemp()
 	return; }
 	while(1)
 	{
-		printf("Enter stu id ");
+		printf("Enter employee id : ");
 		scanf("%d",&e.id);
 		fflush(stdin);
-		printf("Enter stu name ");
+		printf("Enter employee name : ");
 		gets(e.enam);
 		fwrite(&e,sizeof(e),1,fp);
 		puts("1 row created");
 		fflush(stdin);
-		printf("Next stu [y/n] ");
+		printf("Next employee [y/n] : ");
 		scanf("%c",&ch);
 		if(ch=='n'||ch=='N') break;
 	}
@@ -143,7 +143,7 @@ void findrecord()
 	fp=fopen("pro.text","r");
 	if(fp==NULL) 
 	printf("\n\t\t\t\t\t\tERROR : FILE NOT FOUND");
-	printf("\nEnter the ID to find :  ");
+	printf("\nEnter the employee ID to find :  ");
 	scanf("%d",&id);
 	while(fread(&e,sizeof(e),1,fp)==1 && flag==0)
 	{
@@ -169,7 +169,7 @@ void modifyrecord()
 	fp=fopen("pro.text","r+");
 	if(fp==NULL)
 	printf("\n\t\t\t\t\t\tERROR :FILE NOT FOUND");
-	printf("\nEnter the ID to modify : ");
+	printf("\nEnter the employee ID to modify : ");
 	scanf("%d",&id);
 	rewind(fp);
 	while(fread(&e,sizeof(e),1,fp)==1 && flag==0)
