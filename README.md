@@ -50,6 +50,5 @@ PROJECT OUTPUT SCREENSHOT :
 ![Screenshot (160)](https://github.com/nikita11ch/EMPLOYEE-MANAGEMENT-SYSTEM/assets/115834443/c5aa4e9d-75bc-4beb-89ab-1c0e12a19e73)
 
 
-![Screenshot (161)](https://github.com/nikita11ch/EMPLOYEE-MANAGEMENT-SYSTEM/assets/115834443/bf6a3042-0e93-4e2e-9137-f86e5e841562)
 
 
